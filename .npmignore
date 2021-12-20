@@ -1,0 +1,5 @@
+.prettierrc
+.eslintrc
+.gitignore
+**/*.spec.js
+node_modules

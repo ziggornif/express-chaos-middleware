@@ -1,0 +1,46 @@
+{
+  "name": "express-chaos-middleware",
+  "version": "1.0.0",
+  "description": "Put some chaos in your express application",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "eslint": "eslint \"**/*.js\"",
+    "semantic-release": "semantic-release"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "express",
+    "chaos",
+    "testing"
+  ],
+  "author": "ziggornif <matthieudrouian@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.2",
+    "@semantic-release/npm": "^8.0.3",
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.4.5",
+    "prettier": "^2.5.1",
+    "semantic-release": "^18.0.1"
+  },
+  "dependencies": {
+    "debug": "^4.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drouian-m/express-chaos-middleware.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drouian-m/express-chaos-middleware/issues"
+  },
+  "homepage": "https://github.com/drouian-m/express-chaos-middleware#readme"
+}
