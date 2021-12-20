@@ -6,7 +6,11 @@ Put some chaos in your express application.
 
 The aim of this library is to provide simple chaos testing cases for express applications.
 
-## Install
+## Installation
+
+```sh
+npm add express-chaos-middleware
+```
 
 ## Features
 
