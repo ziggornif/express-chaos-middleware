@@ -58,7 +58,7 @@ app.use(chaos({
 
 ### Advanced usage - Use custom http error codes array
 
-The max slowdown delay can be configured in the input object param.
+The http error codes array can be overridden in the input object param.
 
 ```js
 const {chaos} = require('express-chaos-middleware');
