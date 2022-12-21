@@ -1,4 +1,3 @@
-const { setTimeout } = require('timers/promises');
 const debug = require('debug')('express-chaos-middleware');
 
 /**
@@ -10,13 +9,22 @@ const debug = require('debug')('express-chaos-middleware');
  */
 
 /**
+ * Wait X ms
+ */
+async function wait(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve(), ms);
+  });
+}
+
+/**
  * Requests slowdown
  */
 async function delay(req, res, next) {
   const maxDelay = req.options?.maxDelay || 500;
   const pause = Math.floor(Math.random() * maxDelay);
   debug(`rulesFunctions.delay - wait ${pause} ms`);
-  await setTimeout(pause);
+  await wait(pause);
   next();
 }
 
