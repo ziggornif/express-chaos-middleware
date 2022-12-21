@@ -11,11 +11,7 @@ const debug = require('debug')('express-chaos-middleware');
 /**
  * Wait X ms
  */
-async function wait(ms) {
-  return new Promise((resolve) => {
-    setTimeout(resolve(), ms);
-  });
-}
+const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 /**
  * Requests slowdown
