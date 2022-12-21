@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/drouian-m/express-chaos-middleware/compare/v1.1.0...v1.1.1) (2022-12-21)
+
+
+### Bug Fixes
+
+* **wait:** improve function ([e49af40](https://github.com/drouian-m/express-chaos-middleware/commit/e49af404dd07b42e71dc4314f75e8a8b86be894d))
+
 # [1.1.0](https://github.com/drouian-m/express-chaos-middleware/compare/v1.0.0...v1.1.0) (2022-12-21)
 
 
