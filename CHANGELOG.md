@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/drouian-m/express-chaos-middleware/compare/v1.0.0...v1.1.0) (2022-12-21)
+
+
+### Features
+
+* **wait:** replace timer promise ([4c7d30f](https://github.com/drouian-m/express-chaos-middleware/commit/4c7d30fcce67c7b841066800f04398d706d0538e))
+
 # 1.0.0 (2021-12-20)
 
 
