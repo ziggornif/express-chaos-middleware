@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/drouian-m/express-chaos-middleware/compare/v1.1.1...v1.1.2) (2022-12-22)
+
+
+### Performance Improvements
+
+* update deps ([386b7d8](https://github.com/drouian-m/express-chaos-middleware/commit/386b7d8a83119719965f57b84283d59363f2976b))
+
 ## [1.1.1](https://github.com/drouian-m/express-chaos-middleware/compare/v1.1.0...v1.1.1) (2022-12-21)
 
 
