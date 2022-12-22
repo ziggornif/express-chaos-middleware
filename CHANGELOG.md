@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/drouian-m/express-chaos-middleware/compare/v1.1.3...v1.1.4) (2022-12-22)
+
+
+### Bug Fixes
+
+* **ci:** restore changelog ([11dd1f2](https://github.com/drouian-m/express-chaos-middleware/commit/11dd1f22780a2c9ae6a61197c1be03cf8d14d998))
+
 # [1.1.0](https://github.com/drouian-m/express-chaos-middleware/compare/v1.0.0...v1.1.0) (2022-12-21)
 
 
