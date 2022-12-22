@@ -70,7 +70,7 @@ app.use(chaos({
 
 ### Advanced usage - Use custom feature list 
 
-The chaos feature list can be overrided in the input object param.
+The chaos feature list can be overridden in the input object param.
 
 You can for example only use delay and http error codes with the following configuration
 
