@@ -1,24 +1,3 @@
-## [1.1.3](https://github.com/drouian-m/express-chaos-middleware/compare/v1.1.2...v1.1.3) (2022-12-22)
-
-
-### Bug Fixes
-
-* typo ([9332ce1](https://github.com/drouian-m/express-chaos-middleware/commit/9332ce101c3bf234233624d1dcff6bf3f6f3d120))
-
-## [1.1.2](https://github.com/drouian-m/express-chaos-middleware/compare/v1.1.1...v1.1.2) (2022-12-22)
-
-
-### Performance Improvements
-
-* update deps ([386b7d8](https://github.com/drouian-m/express-chaos-middleware/commit/386b7d8a83119719965f57b84283d59363f2976b))
-
-## [1.1.1](https://github.com/drouian-m/express-chaos-middleware/compare/v1.1.0...v1.1.1) (2022-12-21)
-
-
-### Bug Fixes
-
-* **wait:** improve function ([e49af40](https://github.com/drouian-m/express-chaos-middleware/commit/e49af404dd07b42e71dc4314f75e8a8b86be894d))
-
 # [1.1.0](https://github.com/drouian-m/express-chaos-middleware/compare/v1.0.0...v1.1.0) (2022-12-21)
 
 
