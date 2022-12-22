@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/drouian-m/express-chaos-middleware/compare/v1.1.2...v1.1.3) (2022-12-22)
+
+
+### Bug Fixes
+
+* typo ([9332ce1](https://github.com/drouian-m/express-chaos-middleware/commit/9332ce101c3bf234233624d1dcff6bf3f6f3d120))
+
 ## [1.1.2](https://github.com/drouian-m/express-chaos-middleware/compare/v1.1.1...v1.1.2) (2022-12-22)
 
 
