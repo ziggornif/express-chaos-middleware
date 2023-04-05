@@ -1,5 +1,10 @@
-.prettierrc
-.eslintrc
 .gitignore
+.github
+coverage
+examples
 **/*.spec.js
+**/*.spec.ts
 node_modules
+rome.json
+.releaserc
+vitest.config.ts
