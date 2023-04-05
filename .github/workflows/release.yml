@@ -24,6 +24,8 @@ jobs:
           run_install: false
       - name: Install dependencies
         run: pnpm install
+      - name: Build TS
+        run: pnpm build
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
