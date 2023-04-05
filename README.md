@@ -36,13 +36,9 @@ Example :
 
 With a classic random function, it's impossible to replay this use case.
 
-With a seeding system, it's possible to replay this use case by using the same seed/
+On the other hand, it's possible to replay this use case with a seeding system by using the same seed.
 
 See https://en.wikipedia.org/wiki/Random_seed.
-
-
-
-
 
 ## Usage
 
