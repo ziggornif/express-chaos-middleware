@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/drouian-m/express-chaos-middleware/compare/v1.2.0...v1.2.1) (2023-04-05)
+
+
+### Bug Fixes
+
+* **npm:** update main file ([92c22dd](https://github.com/drouian-m/express-chaos-middleware/commit/92c22dd226652a473a6b562d7a621be2db1108aa))
+
 # [1.2.0](https://github.com/drouian-m/express-chaos-middleware/compare/v1.1.4...v1.2.0) (2023-04-05)
 
 
