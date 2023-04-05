@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/drouian-m/express-chaos-middleware/compare/v1.2.3...v1.2.4) (2023-04-05)
+
+
+### Bug Fixes
+
+* **seed:** use debug instead of console log ([eb6edc6](https://github.com/drouian-m/express-chaos-middleware/commit/eb6edc64a76bcbea0e5e9ef788156d5b3aad70cf))
+
 ## [1.2.3](https://github.com/drouian-m/express-chaos-middleware/compare/v1.2.2...v1.2.3) (2023-04-05)
 
 
