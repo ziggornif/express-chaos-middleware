@@ -1,13 +1,12 @@
 const express = require('express');
-const { chaos } = require('..');
+const { chaos } = require('../dist');
 
 const app = express();
 const port = 3000;
 
 app.use(
   chaos({
-    probability: 50,
-    maxDelay: 10000,
+    seed: 'uJaK8BUr2084pph',
   })
 );
 

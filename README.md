@@ -17,6 +17,7 @@ npm add express-chaos-middleware
 - Requests slowdown : Endpoints can be slowed down randomly 
 - Random response error : Endpoints can respond randomly with an error code
 - Random exception : Endpoints can throw exceptions randomly
+- Seeding : Manage random to replay scenarios
 
 Chaos features have a 10 percent "chance" of being called by default. The percentage can be changed in the configuration object.
 
@@ -28,6 +29,19 @@ Chaos features have a 10 percent "chance" of being called by default. The percen
 const {chaos} = require('express-chaos-middleware');
 
 app.use(chaos())
+```
+
+### Use an existing seed
+
+The random seed can be configured in the input object param.
+
+```js
+const {chaos} = require('express-chaos-middleware');
+
+app.use(chaos({
+  // this seed throw an exception on the first call
+  seed: 'uJaK8BUr2084pph',
+}))
 ```
 
 ### Advanced usage - Change chaos probability
