@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/drouian-m/express-chaos-middleware/compare/v1.2.1...v1.2.2) (2023-04-05)
+
+
+### Bug Fixes
+
+* **ci:** build ts before publish ([752357c](https://github.com/drouian-m/express-chaos-middleware/commit/752357c82ff70e26d19dc5581996a10ed46fc101))
+
 ## [1.2.1](https://github.com/drouian-m/express-chaos-middleware/compare/v1.2.0...v1.2.1) (2023-04-05)
 
 
