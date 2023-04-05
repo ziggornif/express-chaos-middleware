@@ -1,6 +1,6 @@
 {
   "name": "express-chaos-middleware",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Put some chaos in your express application",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
