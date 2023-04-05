@@ -86,7 +86,7 @@ function exception() {
  */
 function chaos(options?: UserOptions) {
 	const seed = options?.seed || generateSeed(15);
-	console.log('current seed', seed)
+	debug(`current seed ${seed}`);
 	const rng = seedrandom(seed);
 	const chaosOptions: ChaosOptions = {
 		...options,
