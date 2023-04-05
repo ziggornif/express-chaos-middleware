@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/drouian-m/express-chaos-middleware/compare/v1.1.4...v1.2.0) (2023-04-05)
+
+
+### Features
+
+* **seed:** add random seeds ([ad3e754](https://github.com/drouian-m/express-chaos-middleware/commit/ad3e7542f64b881e0b8a1162dbdbc75d12c88534))
+
 ## [1.1.4](https://github.com/drouian-m/express-chaos-middleware/compare/v1.1.3...v1.1.4) (2022-12-22)
 
 
