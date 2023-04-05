@@ -21,6 +21,29 @@ npm add express-chaos-middleware
 
 Chaos features have a 10 percent "chance" of being called by default. The percentage can be changed in the configuration object.
 
+## Seeding ?
+
+A seed is a value (alphanumeric in this module) used to created a pseudorandom number generator.
+
+The seed is used as the starting point for generating a sequence of random numbers that appear to be random, but are actually deterministic based on the seed value.
+
+In our case, this is really useful to replay scenarios.
+
+Example :
+- The first API call trigger the slow function during 250ms
+- The second call is normal (classic result)
+- The third throw an exception
+
+With a classic random function, it's impossible to replay this use case.
+
+With a seeding system, it's possible to replay this use case by using the same seed/
+
+See https://en.wikipedia.org/wiki/Random_seed.
+
+
+
+
+
 ## Usage
 
 ### Simple usage
