@@ -117,3 +117,4 @@ function chaos(options?: UserOptions) {
 }
 
 export { chaos, Rules };
+export type { ChaosOptions, UserOptions }
